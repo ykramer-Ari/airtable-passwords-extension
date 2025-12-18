@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Airtable Passwords Shortcut",
+  "version": "1.0",
+  "description": "Quick access to Airtable Passwords/Cards",
+  "action": {
+    "default_title": "Open Airtable Passwords"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"],
+  "icons": {
+    "16": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🔑</text></svg>",
+    "48": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><text y='38' font-size='38'>🔑</text></svg>",
+    "128": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><text y='110' font-size='110'>🔑</text></svg>"
+  }
+}
